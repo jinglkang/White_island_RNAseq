@@ -1,4 +1,4 @@
-# Transcriptome de novo assembly for the four species
+# 1. Transcriptome de novo assembly for the four species
 ## use DRAP v.1.92
 ```bash
 export SHARED_DIR=$PWD
@@ -34,4 +34,12 @@ docker_drap_cmd`runDrap -o Yaldwin_runDrap -R1 Yaldwin*_1.fastq.gz -R2 Yaldwin*_
          -2 Yaldwin*_2.fastq.gz\
          -s FR --dbg trinity \
          --dbg-mem 400 --no-trim --norm-mem 400 --no-rate --run         
+```
+# 2. Transcriptome de novo assembly assessment
+## use BUSCO
+```bash
+python ~/software/Busco/scripts/run_BUSCO.py -m tran -i Blenny.fa -o Blenny -l ~/software/Busco/lineage/actinopterygii_odb9 -c 32 -t Blenny-tmp
+python ~/software/Busco/scripts/run_BUSCO.py -m tran -i Blue_eyed.fa -o Blue_eyed -l ~/software/Busco/lineage/actinopterygii_odb9 -c 32 -t Blue_eyed-tmp
+python ~/software/Busco/scripts/run_BUSCO.py -m tran -i Common.fa -o Common -l ~/software/Busco/lineage/actinopterygii_odb9 -c 32 -t Common-tmp
+python ~/software/Busco/scripts/run_BUSCO.py -m tran -i Yaldwyn.fa -o Yaldwyn -l ~/software/Busco/lineage/actinopterygii_odb9 -c 32 -t Yaldwyn-tmp
 ```
