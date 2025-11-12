@@ -1,9 +1,0 @@
-Species	Num	Type
-common	855	2V2->1 vs. Control
-common	429	1V1 vs. Control
-blenny	156	2V2->1 vs. Control
-blenny	108	1V1 vs. Control
-Yaldwin	469	2V2->1 vs. Control
-Yaldwin	143	1V1 vs. Control
-blue-eyed	88	2V2->1 vs. Control
-blue-eyed	29	1V1 vs. Control
