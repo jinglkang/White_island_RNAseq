@@ -44,4 +44,5 @@ sh merge.sh >total_Yaldwyn.gene.matrix
 mkdir reads_matrix; cp *gene.matrix reads_matrix/
 # 5. Get the representative transciprt per species per orthogroups
 perl get_best_blast_orthogroup.pl -blast_result=blastp_result -reads_matrix=reads_matrix
+# Then we obtain the orthogroups as the orthologous genes which contain the transcripts of all four species and only keep the respresentative transcript per species
 ```
