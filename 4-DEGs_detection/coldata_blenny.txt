@@ -1,0 +1,16 @@
+	Site	Species
+Blenny_C_1	Control	crested blenny
+Blenny_C_2	Control	crested blenny
+Blenny_C_3	Control	crested blenny
+Blenny_C_4	Control	crested blenny
+Blenny_C_5	Control	crested blenny
+Blenny_C_6	Control	crested blenny
+Blenny_V1_1	V1	crested blenny
+Blenny_V1_2	V1	crested blenny
+Blenny_V1_3	V1	crested blenny
+Blenny_V1_4	V1	crested blenny
+Blenny_V1_5	V1	crested blenny
+Blenny_V2_1	V2	crested blenny
+Blenny_V2_2	V2	crested blenny
+Blenny_V2_4	V2	crested blenny
+Blenny_V2_5	V2	crested blenny
