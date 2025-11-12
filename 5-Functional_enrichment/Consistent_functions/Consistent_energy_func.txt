@@ -1,0 +1,10 @@
+cellular response to insulin stimulus
+glucose metabolic process
+insulin secretion
+insulin secretion involved in cellular response to glucose stimulus
+negative regulation of cellular response to insulin stimulus
+negative regulation of insulin receptor signaling pathway
+positive regulation of insulin secretion involved in cellular response to glucose stimulus
+regulation of glucose metabolic process
+regulation of insulin secretion
+regulation of insulin secretion involved in cellular response to glucose stimulus
