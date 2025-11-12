@@ -1,0 +1,205 @@
+Tags	GO ID	GO Name	GO Category	FDR	P-Value	Gene_num	Nr Reference	Non Annot Test	Non Annot Reference	Species	Type	Cmp
+[]	GO:0060024	rhythmic synaptic transmission	BIOLOGICAL_PROCESS	1	1	NA	87	108	22375	blenny	1Circadian rhythm	V1vs.C
+[OVER]	GO:0060024	rhythmic synaptic transmission	BIOLOGICAL_PROCESS	0.00217609	4.12E-05	9	78	420	22063	common	1Circadian rhythm	V1vs.C
+[]	GO:0060024	rhythmic synaptic transmission	BIOLOGICAL_PROCESS	1	1	NA	87	29	22454	blue-eyed	1Circadian rhythm	V1vs.C
+[]	GO:0060024	rhythmic synaptic transmission	BIOLOGICAL_PROCESS	1	1	NA	87	143	22340	Yaldwin	1Circadian rhythm	V1vs.C
+[]	GO:0043179	rhythmic excitation	BIOLOGICAL_PROCESS	1	1	NA	26	108	22436	blenny	1Circadian rhythm	V1vs.C
+[OVER]	GO:0043179	rhythmic excitation	BIOLOGICAL_PROCESS	0.034460617	0.001381215	4	22	425	22119	common	1Circadian rhythm	V1vs.C
+[]	GO:0043179	rhythmic excitation	BIOLOGICAL_PROCESS	1	1	NA	26	29	22515	blue-eyed	1Circadian rhythm	V1vs.C
+[]	GO:0043179	rhythmic excitation	BIOLOGICAL_PROCESS	1	1	NA	26	143	22401	Yaldwin	1Circadian rhythm	V1vs.C
+[OVER]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	0.575234895	0.005845504	2	22	106	22440	blenny	1Circadian rhythm	V1vs.C
+[]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	1	0.369226885	1	23	428	22118	common	1Circadian rhythm	V1vs.C
+[]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	1	1	NA	24	29	22517	blue-eyed	1Circadian rhythm	V1vs.C
+[OVER]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	0.004934137	3.67E-07	5	19	138	22408	Yaldwin	1Circadian rhythm	V1vs.C
+[OVER]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	0.928691058	0.027584686	4	234	104	22228	blenny	1Circadian rhythm	V1vs.C
+[OVER]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	0.467741802	0.038953234	9	229	420	21912	common	1Circadian rhythm	V1vs.C
+[]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	1	1	NA	238	29	22303	blue-eyed	1Circadian rhythm	V1vs.C
+[OVER]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	0.005439959	2.95E-06	10	228	133	22199	Yaldwin	1Circadian rhythm	V1vs.C
+[]	GO:0008542	visual learning	BIOLOGICAL_PROCESS	1	0.564901147	2	392	106	22070	blenny	2Vision perception	V1vs.C
+[OVER]	GO:0008542	visual learning	BIOLOGICAL_PROCESS	0.008064599	2.16E-04	19	375	410	21766	common	2Vision perception	V1vs.C
+[]	GO:0008542	visual learning	BIOLOGICAL_PROCESS	1	1	NA	394	29	22147	blue-eyed	2Vision perception	V1vs.C
+[]	GO:0008542	visual learning	BIOLOGICAL_PROCESS	1	0.715625666	2	392	141	22035	Yaldwin	2Vision perception	V1vs.C
+[OVER]	GO:0150063	visual system development	BIOLOGICAL_PROCESS	0.844160477	0.017177612	21	2691	87	19771	blenny	2Vision perception	V1vs.C
+[OVER]	GO:0150063	visual system development	BIOLOGICAL_PROCESS	0.016351923	5.27E-04	75	2637	354	19504	common	2Vision perception	V1vs.C
+[]	GO:0150063	visual system development	BIOLOGICAL_PROCESS	1	0.694139349	3	2709	26	19832	blue-eyed	2Vision perception	V1vs.C
+[]	GO:0150063	visual system development	BIOLOGICAL_PROCESS	1	0.557400689	17	2695	126	19732	Yaldwin	2Vision perception	V1vs.C
+[]	GO:0007632	visual behavior	BIOLOGICAL_PROCESS	1	0.643492371	2	453	106	22009	blenny	2Vision perception	V1vs.C
+[OVER]	GO:0007632	visual behavior	BIOLOGICAL_PROCESS	0.032016985	0.001234015	19	436	410	21705	common	2Vision perception	V1vs.C
+[]	GO:0007632	visual behavior	BIOLOGICAL_PROCESS	1	1	NA	455	29	22086	blue-eyed	2Vision perception	V1vs.C
+[]	GO:0007632	visual behavior	BIOLOGICAL_PROCESS	1	0.786694095	2	453	141	21974	Yaldwin	2Vision perception	V1vs.C
+[]	GO:0050908	detection of light stimulus involved in visual perception	BIOLOGICAL_PROCESS	1	0.197366516	2	169	106	22293	blenny	2Vision perception	V1vs.C
+[OVER]	GO:0050908	detection of light stimulus involved in visual perception	BIOLOGICAL_PROCESS	0.039887197	0.001656853	10	161	419	21980	common	2Vision perception	V1vs.C
+[]	GO:0050908	detection of light stimulus involved in visual perception	BIOLOGICAL_PROCESS	1	1	NA	171	29	22370	blue-eyed	2Vision perception	V1vs.C
+[]	GO:0050908	detection of light stimulus involved in visual perception	BIOLOGICAL_PROCESS	1	0.295101565	2	169	141	22258	Yaldwin	2Vision perception	V1vs.C
+[OVER]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	1	0.064970966	14	1868	94	20594	blenny	2Vision perception	V1vs.C
+[OVER]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	0.006826691	1.75E-04	58	1824	371	20317	common	2Vision perception	V1vs.C
+[]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	1	0.219396734	4	1878	25	20663	blue-eyed	2Vision perception	V1vs.C
+[OVER]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	1	0.028843974	19	1863	124	20564	Yaldwin	2Vision perception	V1vs.C
+[]	GO:0035774	positive regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	0.301447044	2	228	106	22234	blenny	3Energy metabolism	V1vs.C
+[OVER]	GO:0035774	positive regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	0.015496759	4.89E-04	13	217	416	21924	common	3Energy metabolism	V1vs.C
+[]	GO:0035774	positive regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	1	NA	230	29	22311	blue-eyed	3Energy metabolism	V1vs.C
+[]	GO:0035774	positive regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	0.769929854	1	229	142	22198	Yaldwin	3Energy metabolism	V1vs.C
+[]	GO:0046627	negative regulation of insulin receptor signaling pathway	BIOLOGICAL_PROCESS	1	0.688711075	1	241	107	22221	blenny	3Energy metabolism	V1vs.C
+[OVER]	GO:0046627	negative regulation of insulin receptor signaling pathway	BIOLOGICAL_PROCESS	0.022486354	7.87E-04	13	229	416	21912	common	3Energy metabolism	V1vs.C
+[]	GO:0046627	negative regulation of insulin receptor signaling pathway	BIOLOGICAL_PROCESS	1	1	NA	242	29	22299	blue-eyed	3Energy metabolism	V1vs.C
+[]	GO:0046627	negative regulation of insulin receptor signaling pathway	BIOLOGICAL_PROCESS	1	1	NA	242	143	22185	Yaldwin	3Energy metabolism	V1vs.C
+[]	GO:0061178	regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	0.202032028	4	480	104	21982	blenny	3Energy metabolism	V1vs.C
+[OVER]	GO:0061178	regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	0.028274308	0.001052843	20	464	409	21677	common	3Energy metabolism	V1vs.C
+[]	GO:0061178	regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	1	NA	484	29	22057	blue-eyed	3Energy metabolism	V1vs.C
+[]	GO:0061178	regulation of insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	0.594821709	3	481	140	21946	Yaldwin	3Energy metabolism	V1vs.C
+[]	GO:0035773	insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	0.23834982	4	516	104	21946	blenny	3Energy metabolism	V1vs.C
+[OVER]	GO:0035773	insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	0.028472047	0.00106165	21	499	408	21642	common	3Energy metabolism	V1vs.C
+[]	GO:0035773	insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	1	NA	520	29	22021	blue-eyed	3Energy metabolism	V1vs.C
+[]	GO:0035773	insulin secretion involved in cellular response to glucose stimulus	BIOLOGICAL_PROCESS	1	0.643354911	3	517	140	21910	Yaldwin	3Energy metabolism	V1vs.C
+[]	GO:1900077	negative regulation of cellular response to insulin stimulus	BIOLOGICAL_PROCESS	1	0.706310647	1	253	107	22209	blenny	3Energy metabolism	V1vs.C
+[OVER]	GO:1900077	negative regulation of cellular response to insulin stimulus	BIOLOGICAL_PROCESS	0.031765211	0.001223025	13	241	416	21900	common	3Energy metabolism	V1vs.C
+[]	GO:1900077	negative regulation of cellular response to insulin stimulus	BIOLOGICAL_PROCESS	1	1	NA	254	29	22287	blue-eyed	3Energy metabolism	V1vs.C
+[]	GO:1900077	negative regulation of cellular response to insulin stimulus	BIOLOGICAL_PROCESS	1	1	NA	254	143	22173	Yaldwin	3Energy metabolism	V1vs.C
+[]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	1	0.110205613	11	1507	97	20955	blenny	4Stimulus response	V1vs.C
+[OVER]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	0.226187675	0.014899083	41	1477	388	20664	common	4Stimulus response	V1vs.C
+[OVER]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	1	0.042091308	5	1513	24	21028	blue-eyed	4Stimulus response	V1vs.C
+[]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	1	0.496446988	10	1508	133	20919	Yaldwin	4Stimulus response	V1vs.C
+[]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	1	0.110205613	11	1507	97	20955	blenny	4Stimulus response	V1vs.C
+[OVER]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	0.226187675	0.014899083	41	1477	388	20664	common	4Stimulus response	V1vs.C
+[OVER]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	1	0.042091308	5	1513	24	21028	blue-eyed	4Stimulus response	V1vs.C
+[]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	1	0.496446988	10	1508	133	20919	Yaldwin	4Stimulus response	V1vs.C
+[]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	1	0.787951675	6	1598	102	20864	blenny	4Stimulus response	V1vs.C
+[]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	1	0.874008002	25	1579	404	20562	common	4Stimulus response	V1vs.C
+[]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	1	0.620675442	2	1602	27	20939	blue-eyed	4Stimulus response	V1vs.C
+[OVER]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	0.184639318	0.001188569	21	1583	122	20844	Yaldwin	4Stimulus response	V1vs.C
+[]	GO:0048512	circadian behavior	BIOLOGICAL_PROCESS	1	0.531085764	3	401	153	22013	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0048512	circadian behavior	BIOLOGICAL_PROCESS	8.48E-06	1.13E-08	41	363	814	21352	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0048512	circadian behavior	BIOLOGICAL_PROCESS	1	0.07331321	4	400	84	22082	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0048512	circadian behavior	BIOLOGICAL_PROCESS	0.195619631	0.002138352	18	386	451	21715	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	1	0.809763183	1	237	155	22177	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	2.23E-14	1.81E-18	44	194	811	21521	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	0.647800259	0.002406712	5	233	83	22249	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0032922	circadian regulation of gene expression	BIOLOGICAL_PROCESS	0.299265797	0.004318045	12	226	457	21875	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0003053	circadian regulation of heart rate	BIOLOGICAL_PROCESS	1	1	NA	10	156	22404	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0003053	circadian regulation of heart rate	BIOLOGICAL_PROCESS	8.62E-06	1.19E-08	7	3	848	21712	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0003053	circadian regulation of heart rate	BIOLOGICAL_PROCESS	1	1	NA	10	88	22472	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0003053	circadian regulation of heart rate	BIOLOGICAL_PROCESS	1	1	NA	10	469	22091	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0097167	circadian regulation of translation	BIOLOGICAL_PROCESS	1	1	NA	25	156	22389	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0097167	circadian regulation of translation	BIOLOGICAL_PROCESS	0.018804041	2.77E-04	6	19	849	21696	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0097167	circadian regulation of translation	BIOLOGICAL_PROCESS	1	1	NA	25	88	22457	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0097167	circadian regulation of translation	BIOLOGICAL_PROCESS	1	0.094499097	2	23	467	22078	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0007623	circadian rhythm	BIOLOGICAL_PROCESS	1	0.371262413	9	1112	147	21302	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0007623	circadian rhythm	BIOLOGICAL_PROCESS	6.29E-07	3.56E-10	86	1035	769	20680	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0007623	circadian rhythm	BIOLOGICAL_PROCESS	0.499825363	0.001334186	12	1109	76	21373	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0007623	circadian rhythm	BIOLOGICAL_PROCESS	0.292535642	0.003884635	37	1084	432	21017	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0042745	circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1	0.49348553	2	237	154	22177	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042745	circadian sleep/wake cycle	BIOLOGICAL_PROCESS	9.63E-07	5.85E-10	32	207	823	21508	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0042745	circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1	0.238998123	2	237	86	22245	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0042745	circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1	0.230503043	7	232	462	21869	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0022410	circadian sleep/wake cycle process	BIOLOGICAL_PROCESS	1	0.400685025	2	197	154	22217	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0022410	circadian sleep/wake cycle process	BIOLOGICAL_PROCESS	5.82E-05	1.56E-07	25	174	830	21541	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0022410	circadian sleep/wake cycle process	BIOLOGICAL_PROCESS	1	1	NA	199	88	22283	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0022410	circadian sleep/wake cycle process	BIOLOGICAL_PROCESS	1	0.122118334	7	192	462	21909	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0050802	"circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1	1	NA	180	156	22234	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0050802	"circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1.39E-05	2.10E-08	25	155	830	21560	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0050802	"circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1	1	NA	180	88	22302	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0050802	"circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1	0.082447743	7	173	462	21928	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	1	1	NA	24	156	22390	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	0.015619395	2.18E-04	6	18	849	21697	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	0.717793937	0.003923165	2	22	86	22460	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0060086	circadian temperature homeostasis	BIOLOGICAL_PROCESS	0.026111416	1.16E-04	5	19	464	22082	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0009649	entrainment of circadian clock	BIOLOGICAL_PROCESS	1	1	NA	171	156	22243	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0009649	entrainment of circadian clock	BIOLOGICAL_PROCESS	1.54E-07	6.23E-11	28	143	827	21572	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0009649	entrainment of circadian clock	BIOLOGICAL_PROCESS	1	0.143658894	2	169	86	22313	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0009649	entrainment of circadian clock	BIOLOGICAL_PROCESS	1	0.283417311	5	166	464	21935	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0043153	entrainment of circadian clock by photoperiod	BIOLOGICAL_PROCESS	1	1	NA	120	156	22294	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0043153	entrainment of circadian clock by photoperiod	BIOLOGICAL_PROCESS	1.10E-06	7.64E-10	22	98	833	21617	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0043153	entrainment of circadian clock by photoperiod	BIOLOGICAL_PROCESS	1	0.079898404	2	118	86	22364	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0043153	entrainment of circadian clock by photoperiod	BIOLOGICAL_PROCESS	1	0.105310033	5	115	464	21986	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0045475	locomotor rhythm	BIOLOGICAL_PROCESS	1	1	NA	166	156	22248	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0045475	locomotor rhythm	BIOLOGICAL_PROCESS	0.002333528	1.82E-05	19	147	836	21568	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0045475	locomotor rhythm	BIOLOGICAL_PROCESS	1	1	NA	166	88	22316	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0045475	locomotor rhythm	BIOLOGICAL_PROCESS	0.036904734	1.91E-04	12	154	457	21947	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0042754	negative regulation of circadian rhythm	BIOLOGICAL_PROCESS	1	1	NA	61	156	22353	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042754	negative regulation of circadian rhythm	BIOLOGICAL_PROCESS	2.54E-05	4.84E-08	14	47	841	21668	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0042754	negative regulation of circadian rhythm	BIOLOGICAL_PROCESS	1	1	NA	61	88	22421	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042754	negative regulation of circadian rhythm	BIOLOGICAL_PROCESS	0.928933193	0.037969683	4	57	465	22044	Yaldwin	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042753	positive regulation of circadian rhythm	BIOLOGICAL_PROCESS	0.866265641	0.009988413	4	117	152	22297	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042753	positive regulation of circadian rhythm	BIOLOGICAL_PROCESS	0.001804567	1.36E-05	16	105	839	21610	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042753	positive regulation of circadian rhythm	BIOLOGICAL_PROCESS	0.499825363	0.001295258	4	117	84	22365	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0042753	positive regulation of circadian rhythm	BIOLOGICAL_PROCESS	1	0.244093887	4	117	465	21984	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0042752	regulation of circadian rhythm	BIOLOGICAL_PROCESS	1	0.412654212	5	604	151	21810	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042752	regulation of circadian rhythm	BIOLOGICAL_PROCESS	2.50E-05	4.55E-08	52	557	803	21158	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042752	regulation of circadian rhythm	BIOLOGICAL_PROCESS	1	0.009719708	7	602	81	21880	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0042752	regulation of circadian rhythm	BIOLOGICAL_PROCESS	1	0.135340105	17	592	452	21509	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0042749	regulation of circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1	0.338860179	2	172	154	22242	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0042749	regulation of circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1.98E-07	9.49E-11	28	146	827	21569	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0042749	regulation of circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1	0.147685951	2	172	86	22310	blue-eyed	1Circadian rhythm	V2->1vs.C
+[]	GO:0042749	regulation of circadian sleep/wake cycle	BIOLOGICAL_PROCESS	1	0.155265454	6	168	463	21933	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0045187	"regulation of circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1	1	NA	136	156	22278	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0045187	"regulation of circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1.91E-06	1.65E-09	23	113	832	21602	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0045187	"regulation of circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1	1	NA	136	88	22346	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0045187	"regulation of circadian sleep/wake cycle, sleep"	BIOLOGICAL_PROCESS	1	0.064791972	6	130	463	21971	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0007622	rhythmic behavior	BIOLOGICAL_PROCESS	1	0.608811389	3	450	153	21964	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0007622	rhythmic behavior	BIOLOGICAL_PROCESS	4.20E-05	9.86E-08	42	411	813	21304	common	1Circadian rhythm	V2->1vs.C
+[]	GO:0007622	rhythmic behavior	BIOLOGICAL_PROCESS	1	0.100986193	4	449	84	22033	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0007622	rhythmic behavior	BIOLOGICAL_PROCESS	0.076957528	5.73E-04	21	432	448	21669	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0048511	rhythmic process	BIOLOGICAL_PROCESS	1	0.518499188	11	1550	145	20864	blenny	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0048511	rhythmic process	BIOLOGICAL_PROCESS	8.48E-06	1.13E-08	104	1457	751	20258	common	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0048511	rhythmic process	BIOLOGICAL_PROCESS	0.948761555	0.007324385	13	1548	75	20934	blue-eyed	1Circadian rhythm	V2->1vs.C
+[OVER]	GO:0048511	rhythmic process	BIOLOGICAL_PROCESS	0.297858172	0.004267167	48	1513	421	20588	Yaldwin	1Circadian rhythm	V2->1vs.C
+[]	GO:0009785	blue light signaling pathway	BIOLOGICAL_PROCESS	1	1	NA	12	156	22402	blenny	2Vision perception	V2->1vs.C
+[OVER]	GO:0009785	blue light signaling pathway	BIOLOGICAL_PROCESS	1.91E-06	1.78E-09	8	4	847	21711	common	2Vision perception	V2->1vs.C
+[]	GO:0009785	blue light signaling pathway	BIOLOGICAL_PROCESS	1	1	NA	12	88	22470	blue-eyed	2Vision perception	V2->1vs.C
+[OVER]	GO:0009785	blue light signaling pathway	BIOLOGICAL_PROCESS	0.020536458	7.98E-05	4	8	465	22093	Yaldwin	2Vision perception	V2->1vs.C
+[]	GO:0071483	cellular response to blue light	BIOLOGICAL_PROCESS	1	1	NA	12	156	22402	blenny	2Vision perception	V2->1vs.C
+[OVER]	GO:0071483	cellular response to blue light	BIOLOGICAL_PROCESS	1.91E-06	1.78E-09	8	4	847	21711	common	2Vision perception	V2->1vs.C
+[]	GO:0071483	cellular response to blue light	BIOLOGICAL_PROCESS	1	1	NA	12	88	22470	blue-eyed	2Vision perception	V2->1vs.C
+[OVER]	GO:0071483	cellular response to blue light	BIOLOGICAL_PROCESS	0.020536458	7.98E-05	4	8	465	22093	Yaldwin	2Vision perception	V2->1vs.C
+[]	GO:0009583	detection of light stimulus	BIOLOGICAL_PROCESS	1	0.196657793	5	441	151	21973	blenny	2Vision perception	V2->1vs.C
+[OVER]	GO:0009583	detection of light stimulus	BIOLOGICAL_PROCESS	0.026935952	4.50E-04	32	414	823	21301	common	2Vision perception	V2->1vs.C
+[]	GO:0009583	detection of light stimulus	BIOLOGICAL_PROCESS	1	1	NA	446	88	22036	blue-eyed	2Vision perception	V2->1vs.C
+[]	GO:0009583	detection of light stimulus	BIOLOGICAL_PROCESS	1	0.711628015	8	438	461	21663	Yaldwin	2Vision perception	V2->1vs.C
+[]	GO:0050980	detection of light stimulus involved in magnetoreception	BIOLOGICAL_PROCESS	1	1	NA	8	156	22406	blenny	2Vision perception	V2->1vs.C
+[OVER]	GO:0050980	detection of light stimulus involved in magnetoreception	BIOLOGICAL_PROCESS	1.10E-06	8.46E-10	7	1	848	21714	common	2Vision perception	V2->1vs.C
+[]	GO:0050980	detection of light stimulus involved in magnetoreception	BIOLOGICAL_PROCESS	1	1	NA	8	88	22474	blue-eyed	2Vision perception	V2->1vs.C
+[OVER]	GO:0050980	detection of light stimulus involved in magnetoreception	BIOLOGICAL_PROCESS	0.522431951	0.011104323	2	6	467	22095	Yaldwin	2Vision perception	V2->1vs.C
+[]	GO:0009637	response to blue light	BIOLOGICAL_PROCESS	1	1	NA	41	156	22373	blenny	2Vision perception	V2->1vs.C
+[OVER]	GO:0009637	response to blue light	BIOLOGICAL_PROCESS	8.05E-05	2.41E-07	11	30	844	21685	common	2Vision perception	V2->1vs.C
+[]	GO:0009637	response to blue light	BIOLOGICAL_PROCESS	1	1	NA	41	88	22441	blue-eyed	2Vision perception	V2->1vs.C
+[OVER]	GO:0009637	response to blue light	BIOLOGICAL_PROCESS	0.509741049	0.0101589	4	37	465	22064	Yaldwin	2Vision perception	V2->1vs.C
+[OVER]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	1	0.099633484	18	1864	138	20550	blenny	2Vision perception	V2->1vs.C
+[OVER]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	0.021800691	3.42E-04	100	1782	755	19933	common	2Vision perception	V2->1vs.C
+[]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	1	0.607954343	7	1875	81	20607	blue-eyed	2Vision perception	V2->1vs.C
+[]	GO:0009416	response to light stimulus	BIOLOGICAL_PROCESS	1	0.598814861	38	1844	431	20257	Yaldwin	2Vision perception	V2->1vs.C
+[]	GO:0010906	regulation of glucose metabolic process	BIOLOGICAL_PROCESS	1	0.951115097	1	430	155	21984	blenny	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0010906	regulation of glucose metabolic process	BIOLOGICAL_PROCESS	3.28E-04	1.38E-06	38	393	817	21322	common	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0010906	regulation of glucose metabolic process	BIOLOGICAL_PROCESS	1	0.088021646	4	427	84	22055	blue-eyed	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0010906	regulation of glucose metabolic process	BIOLOGICAL_PROCESS	0.17587891	0.001838576	19	412	450	21689	Yaldwin	3Energy metabolism	V2->1vs.C
+[]	GO:0006006	glucose metabolic process	BIOLOGICAL_PROCESS	1	0.843503339	3	664	153	21750	blenny	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0006006	glucose metabolic process	BIOLOGICAL_PROCESS	3.86E-04	1.75E-06	51	616	804	21099	common	3Energy metabolism	V2->1vs.C
+[]	GO:0006006	glucose metabolic process	BIOLOGICAL_PROCESS	1	0.262616371	4	663	84	21819	blue-eyed	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0006006	glucose metabolic process	BIOLOGICAL_PROCESS	0.100245056	8.23E-04	27	640	442	21461	Yaldwin	3Energy metabolism	V2->1vs.C
+[]	GO:0050796	regulation of insulin secretion	BIOLOGICAL_PROCESS	1	0.968502657	3	980	153	21434	blenny	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0050796	regulation of insulin secretion	BIOLOGICAL_PROCESS	1.03E-05	1.46E-08	74	909	781	20806	common	3Energy metabolism	V2->1vs.C
+[]	GO:0050796	regulation of insulin secretion	BIOLOGICAL_PROCESS	1	0.743379059	3	980	85	21502	blue-eyed	3Energy metabolism	V2->1vs.C
+[]	GO:0050796	regulation of insulin secretion	BIOLOGICAL_PROCESS	1	0.742298934	18	965	451	21136	Yaldwin	3Energy metabolism	V2->1vs.C
+[]	GO:0030073	insulin secretion	BIOLOGICAL_PROCESS	1	0.953380556	4	1113	152	21301	blenny	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0030073	insulin secretion	BIOLOGICAL_PROCESS	1.54E-04	5.59E-07	76	1041	779	20674	common	3Energy metabolism	V2->1vs.C
+[]	GO:0030073	insulin secretion	BIOLOGICAL_PROCESS	1	0.639232588	4	1113	84	21369	blue-eyed	3Energy metabolism	V2->1vs.C
+[]	GO:0030073	insulin secretion	BIOLOGICAL_PROCESS	1	0.548703555	23	1094	446	21007	Yaldwin	3Energy metabolism	V2->1vs.C
+[]	GO:0032869	cellular response to insulin stimulus	BIOLOGICAL_PROCESS	1	0.273077333	10	1140	146	21274	blenny	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0032869	cellular response to insulin stimulus	BIOLOGICAL_PROCESS	0.478007486	0.032681927	56	1094	799	20621	common	3Energy metabolism	V2->1vs.C
+[]	GO:0032869	cellular response to insulin stimulus	BIOLOGICAL_PROCESS	1	0.161361467	7	1143	81	21339	blue-eyed	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0032869	cellular response to insulin stimulus	BIOLOGICAL_PROCESS	0.007139798	1.76E-05	46	1104	423	20997	Yaldwin	3Energy metabolism	V2->1vs.C
+[]	GO:0032868	response to insulin	BIOLOGICAL_PROCESS	1	0.251805407	12	1375	144	21039	blenny	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0032868	response to insulin	BIOLOGICAL_PROCESS	0.056655518	0.001199629	75	1312	780	20403	common	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0032868	response to insulin	BIOLOGICAL_PROCESS	1	0.090868469	9	1378	79	21104	blue-eyed	3Energy metabolism	V2->1vs.C
+[OVER]	GO:0032868	response to insulin	BIOLOGICAL_PROCESS	0.025356511	1.08E-04	50	1337	419	20764	Yaldwin	3Energy metabolism	V2->1vs.C
+[]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	1	0.357934319	12	1506	144	20908	blenny	4Stimulus response	V2->1vs.C
+[OVER]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	0.014019053	1.89E-04	85	1433	770	20282	common	4Stimulus response	V2->1vs.C
+[]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	1	0.984104129	2	1516	86	20966	blue-eyed	4Stimulus response	V2->1vs.C
+[]	GO:0104004	cellular response to environmental stimulus	BIOLOGICAL_PROCESS	1	0.567259313	31	1487	438	20614	Yaldwin	4Stimulus response	V2->1vs.C
+[]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	1	0.357934319	12	1506	144	20908	blenny	4Stimulus response	V2->1vs.C
+[OVER]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	0.014019053	1.89E-04	85	1433	770	20282	common	4Stimulus response	V2->1vs.C
+[]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	1	0.984104129	2	1516	86	20966	blue-eyed	4Stimulus response	V2->1vs.C
+[]	GO:0071214	cellular response to abiotic stimulus	BIOLOGICAL_PROCESS	1	0.567259313	31	1487	438	20614	Yaldwin	4Stimulus response	V2->1vs.C
+[]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	1	0.677836411	10	1594	146	20820	blenny	4Stimulus response	V2->1vs.C
+[OVER]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	0.347140558	0.018818672	77	1527	778	20188	common	4Stimulus response	V2->1vs.C
+[]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	1	0.601690581	6	1598	82	20884	blue-eyed	4Stimulus response	V2->1vs.C
+[OVER]	GO:0071496	cellular response to external stimulus	BIOLOGICAL_PROCESS	0.034752807	1.76E-04	55	1549	414	20552	Yaldwin	4Stimulus response	V2->1vs.C
