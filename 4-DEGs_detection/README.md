@@ -25,4 +25,10 @@ sh merge.sh >total_Common.gene.matrix
 perl -e '@files=<*.genes.results>;print "../merge_RSEM_frag_counts_single_table.pl";foreach $file(@files){print " $file "}'>merge.sh
 sh merge.sh >total_Yaldwin.gene.matrix
 ```
-
+## DEGs detection
+```bash
+DESeq --matrix Blenny_matrix.xls --samples coldata_blenny.txt --column Site --prefix Blenny
+DESeq --matrix Blueeyed_matrix.xls --samples coldata_Blueeyed.txt --column Site --prefix Blueeyed
+DESeq --matrix Common_matrix.xls --samples coldata_Common.txt --column Site --prefix Common
+DESeq --matrix Yaldwin_matrix.xls --samples coldata_Yaldwin.txt --column Site --prefix Yaldwin
+```
