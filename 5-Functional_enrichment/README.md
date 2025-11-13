@@ -1,4 +1,5 @@
 # Functional enrichment
+## Consistent functions
 ```bash
 # The DEGs between V1 and control, and V2 and control were used as the input for functional enrichment
 ###################################################################
@@ -13,4 +14,7 @@ cat Consistent_functions/Consistent_*_func.txt > Consistent_sigFunc.txt
 perl extract_consistent_funcInfo.pl V1C > Consistent_sigFunc_plot1.txt
 perl extract_consistent_funcInfo.pl V2C > Consistent_sigFunc_plot2.txt
 cat Consistent_sigFunc_plot1.txt Consistent_sigFunc_plot2.txt > Consistent_sigFunc_plot.txt
+```
+## Specific functions
+```bash
 ```
