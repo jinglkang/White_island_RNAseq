@@ -1,4 +1,4 @@
-# Functional enrichment
+<img width="432" height="14" alt="image" src="https://github.com/user-attachments/assets/7467d204-7912-4a34-9e24-8d0a152b7652" /># Functional enrichment
 ## Consistent functions
 ```bash
 # The DEGs between V1 and control, and V2 and control were used as the input for functional enrichment
@@ -91,4 +91,32 @@ extract_gene_functions -i BlennyNofilter_enrichment.txt -a unprot_name_descripti
 
 # 3. Extract the genes underlying functions specific in the crested blenny
 extract_gene_functions -i BlennyNofilter_enrichment.txt -a unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions specific_sig_funcs_blenny_V2C.txt --output specific_sig_funcs_blenny_V2C_genes
+```
+## DEGs extraction underlying the target two functions
+```bash
+# 1. behavior (GO:0007610); 2. synaptic signaling (GO:0099536)
+vi target_two_GOs.txt
+# behavior
+# synaptic signaling
+# V1 vs. Control
+extract_gene_functions -i BlennyNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Blenny_target_two_GOs_DEGs
+extract_gene_functions -i BlueeyedNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Blueeyed_target_two_GOs_DEGs
+extract_gene_functions -i CommonNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Common_target_two_GOs_DEGs
+extract_gene_functions -i YaldwynNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Yaldwyn_target_two_GOs_DEGs
+
+less Common_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "common triplefin\tV1vsC\t$go\t$key\t$des"}}' > Common_target_two_GOs_DEGs_uniq_V1C.txt
+less Yaldwyn_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "Yaldwin triplefin\tV1vsC\t$go\t$key\t$des"}}' > Yaldwyn_target_two_GOs_DEGs_uniq_V1C.txt
+less Blenny_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "crested blenny\tV1vsC\t$go\t$key\t$des"}}' > Blenny_target_two_GOs_DEGs_uniq_V1C.txt
+less Blueeyed_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "blueeyed triplefin\tV1vsC\t$go\t$key\t$des"}}' > Blueeyed_target_two_GOs_DEGs_uniq_V1C.txt
+
+# V2 vs. Control
+extract_gene_functions -i BlennyNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Blenny_target_two_GOs_DEGs
+extract_gene_functions -i BlueeyedNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Blueeyed_target_two_GOs_DEGs
+extract_gene_functions -i CommonNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Common_target_two_GOs_DEGs
+extract_gene_functions -i YaldwynNofilter_enrichment.txt -a ../unprot_name_description_orthgroup.txt --gene_column 1 --func_column 3 --functions target_two_GOs.txt --output Yaldwyn_target_two_GOs_DEGs
+
+less Common_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "common triplefin\tV2vsC\t$go\t$key\t$des"}}' > Common_target_two_GOs_DEGs_uniq_V2C.txt
+less Yaldwyn_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "Yaldwin triplefin\tV2vsC\t$go\t$key\t$des"}}' > Yaldwyn_target_two_GOs_DEGs_uniq_V2C.txt
+less Blenny_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "crested blenny\tV2vsC\t$go\t$key\t$des"}}' > Blenny_target_two_GOs_DEGs_uniq_V2C.txt
+less Blueeyed_target_two_GOs_DEGs.txt |perl -alne '@a=split /\t/;$hash1{$a[2]}="$a[3]\t$a[4]";$hash2{$a[2]}.=$a[1]." & ";END{foreach my $key (keys %hash1){my $des=$hash1{$key}; my $go=$hash2{$key};$go=~s/\s+&\s+$//;print "blueeyed triplefin\tV2vsC\t$go\t$key\t$des"}}' > Blueeyed_target_two_GOs_DEGs_uniq_V2C.txt
 ```
