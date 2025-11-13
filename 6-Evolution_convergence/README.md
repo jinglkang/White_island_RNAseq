@@ -67,4 +67,17 @@ conda create -n hyphy_env -c bioconda -c conda-forge hyphy
 conda activate hyphy_env
 # Run BUSTED-MH method implemented in HYPHY v2.5.85 to detect the positively selected sites of crested blenny and common triplefin
 perl run_hyphy.pl CEGs_list.txt spe_Blenny_Common.tre Blenny_Common
+
+# json result: final_alignment.fa.BUSTED.json
+# summary the results
+# (base) jlkang@hnu2024 Tue Nov 04 2025 16:55:23 ~/WI_convergence/Hyphy
+perl Extract_hyphy_Pvalue.pl > Hyphy_pValue.txt
+R
+# p_apoly<-read.table(file="Hyphy_pValue.txt")
+# p_apoly$fdr<- p.adjust(p_apoly$V2,method="fdr",length(p_apoly$V2))
+# write.table(p_apoly, file="Hyphy_pValue_fdr.txt",row.names=F,col.names=F,quote=F,sep="\t")
+ 
+# obtain the positive selection site
+# (base) jlkang@hnu2024 Tue Nov 04 2025 21:57:39 ~/WI_convergence/OG0006045
+less final_alignment.fa.BUSTED.json|head -n 4|tail -n 1|perl -alne 's/\[|]//g;s/\,//g;my @a=split;for(my $i=0;$i<@a;$i++){my $j=$i+1;print "$j\t$a[$i]" if $a[$i]>=10}'
 ```
