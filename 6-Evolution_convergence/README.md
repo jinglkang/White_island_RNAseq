@@ -45,4 +45,17 @@ perl anno_orth.pl > orth_id_paml_ano.txt
 # trim: Gblocks v0.91b
 # run prepare_input_paml.pl in parallel
 perl prepare_input_paml_parallel.pl orth_id_paml.txt
+
+# translate the nucleotide sequences of all orthologous genes in final_orth_input_paml.txt
+# use translateDna.pl
+perl translate_OG_pep.pl
+```
+## Protein sequence comparison of each orthologous gene
+```bash
+# Detect the convergenet site within the crested blenny and common triplefin which are nonsynonymous substitutions compared to other 14 species
+# same amino acid in crested blenny and common triplefin, but different with another same amino acid across the other 14 species
+# perl Detect_Nons.pl $_
+perl Detect_Nons_all.pl > convergent_evo_genes.txt
+# annotation
+perl anno_convergent_genes.pl
 ```
