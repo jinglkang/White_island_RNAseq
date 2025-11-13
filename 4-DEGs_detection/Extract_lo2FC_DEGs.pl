@@ -9,7 +9,7 @@ my $speDEG=$ARGV[1];
 &Build_hash($ARGV[2]);
 &Build_hash($ARGV[3]);
 &Build_hash($ARGV[4]);
-my @spes=qw(Blenny Blueeyed Common Yaldwyn);
+my @spes=qw(Blenny Blueeyed Common Yaldwin);
 print "OrthID\tSpecies\tLog2FC\n";
 
 foreach my $gene (@DEGs) {
