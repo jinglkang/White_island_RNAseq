@@ -1,4 +1,4 @@
-<img width="432" height="14" alt="image" src="https://github.com/user-attachments/assets/f8b066fd-ea13-46c9-b116-d3f71dc5de0f" /><img width="432" height="14" alt="image" src="https://github.com/user-attachments/assets/90854f63-e2b9-4704-9d60-396f094c0495" /># Convergent evolution analysis
+# Convergent evolution analysis
 ## Orthologous genes detection
 ```bash
 # 1. pre-orthologous genes detection
