@@ -50,12 +50,21 @@ perl prepare_input_paml_parallel.pl orth_id_paml.txt
 # use translateDna.pl
 perl translate_OG_pep.pl
 ```
-## Protein sequence comparison of each orthologous gene
+## Convergent site detection
 ```bash
+# Protein sequence comparison of each orthologous gene
 # Detect the convergenet site within the crested blenny and common triplefin which are nonsynonymous substitutions compared to other 14 species
 # same amino acid in crested blenny and common triplefin, but different with another same amino acid across the other 14 species
 # perl Detect_Nons.pl $_
 perl Detect_Nons_all.pl > convergent_evo_genes.txt
 # annotation
 perl anno_convergent_genes.pl
+```
+## Hyphy to detect the positively selected sites
+```bash
+# The crested blenny and common triplefin as the forebranch
+conda create -n hyphy_env -c bioconda -c conda-forge hyphy
+conda activate hyphy_env
+# Run BUSTED-MH method implemented in HYPHY v2.5.85 to detect the positively selected sites of crested blenny and common triplefin
+perl run_hyphy.pl CEGs_list.txt spe_Blenny_Common.tre Blenny_Common
 ```
